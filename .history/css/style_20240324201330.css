@@ -1,0 +1,14 @@
+div#posts {
+    margin-top: 2em;
+}
+h1{
+    margin: 1em 0;
+}
+
+    article span {
+        margin-left: 1px;
+    }
+
+    article span a:hover {
+        font-weight: bold;
+    }

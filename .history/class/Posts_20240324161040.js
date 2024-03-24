@@ -1,0 +1,5 @@
+import {Post}
+
+class Posts{
+
+}

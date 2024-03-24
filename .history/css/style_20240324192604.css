@@ -1,0 +1,12 @@
+
+    article span {
+        margin-left: 20px;
+    }
+
+    article span a{
+        color: #ff0000;
+    }
+
+    article span a:hover {
+        font-weight: bold;
+    }

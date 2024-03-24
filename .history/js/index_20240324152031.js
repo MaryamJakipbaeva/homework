@@ -1,0 +1,9 @@
+const posts_div = document.querySelector('div#posts')
+
+fetch('http://localhost:3001')
+.then(response=> response.json())
+.then(json => {
+    const post_articleposts_div.appendChild(document.createElement('<article>'))
+}), (error) => {
+    alert(error)
+}
