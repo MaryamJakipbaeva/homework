@@ -5,7 +5,7 @@ class Posts {
     }
     async getPosts() {
         
-        return [{ id: 1, message: 'My task 1' }, { id: 2, message: 'My task  2' }];
+        return [{ id: 1, message: 'Task 1' }, { id: 2, message: 'My task  2' }];
     }
     async addPost(message) {
        

@@ -5,14 +5,14 @@ class Posts {
     }
     async getPosts() {
         
-        return [{ id: 1, message: 'My task 1' }, { id: 2, message: 'My task  2' }];
+        return [{ id: 1, message: 'Task 1' }, { id: 2, message: 'Task 2' }];
     }
     async addPost(message) {
        
         return { id: Date.now(), message };
     }
     async removePost(id) {
-        
+        // Dummy implementation
         return id;
     }
 }

@@ -1,18 +1,21 @@
+// Import statement if using a module bundler like Webpack
+// import { Posts } from './class/Posts.js';
 
+// Dummy Posts class for demonstration
 class Posts {
     constructor(url) {
         this.url = url;
     }
     async getPosts() {
-        
-        return [{ id: 1, message: 'My task 1' }, { id: 2, message: 'My task  2' }];
+        // Dummy implementation
+        return [{ id: 1, message: 'Task 1' }, { id: 2, message: 'Task 2' }];
     }
     async addPost(message) {
-       
+        // Dummy implementation
         return { id: Date.now(), message };
     }
     async removePost(id) {
-        
+        // Dummy implementation
         return id;
     }
 }
