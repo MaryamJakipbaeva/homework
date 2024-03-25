@@ -5,7 +5,7 @@ const blogRouter = express.Router()
 
 blogRouter.get("/",async (req,res) =>{
     try {
-       const result = await query('select * from sometask')
+       const result = await query('select * from some')
         const rows = result.rows ? result.rows : []
         res.status(200).json(rows)
     } catch(error){
